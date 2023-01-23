@@ -11,11 +11,11 @@ class JokeUsingClasses extends React.Component {
 
 
     }
-        upVote = ({id, vote}) => {
+        upVote = () => {
             this.setState({ vote: this.state.vote + 1})
         }
 
-        downVote = ({id, vote}) => {
+        downVote = () => {
             this.setState({ vote: this.state.vote -1})
         }
     
